@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+}
+
+.app {
+    min-height: 100vh;
+    padding: 50px 20px;
+    color: white;
+    text-align: center;
+}
+
+.title {
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+/* SEARCH */
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 80px;
+}
+
+.search-box input {
+    width: 300px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.search-box button {
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    background: #38bdf8;
+    color: #0f172a;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+/* WEATHER CARD */
+
+.weather-card {
+    background: #1e293b;
+    max-width: 400px;
+    margin: auto;
+    padding: 35px;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+}
+
+.weather-card h2 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.weather-card h1 {
+    font-size: 65px;
+    margin-bottom: 15px;
+}
+
+.weather-card h3 {
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+/* WEATHER DETAILS */
+
+.weather-details {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 30px auto;
+    max-width: 700px;
+    flex-wrap: wrap;
+}
+
+.detail-box {
+    background: #1e293b;
+    padding: 25px;
+    border-radius: 15px;
+    min-width: 180px;
+}
+
+.detail-box h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.detail-box p {
+    font-size: 22px;
+    font-weight: bold;
+}
+.search-result {
+    margin: 20px 0;
+    color: #38bdf8;
+    font-size: 20px;
+}
+.weather-icon {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin: 5px auto;
+}
+.weather-main-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.weather-main-icon svg {
+    color: #38bdf8;
+    filter: drop-shadow(0 5px 15px rgba(56, 189, 248, 0.3));
+}
+
+.detail-box svg {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
