@@ -9,7 +9,9 @@ import './App.css';
 import Searchbar from './components/Searchbar.jsx';
 import Weathercard from './components/Weathercard.jsx';
 import Weatherdetails from './components/Weatherdetails.jsx';
-import { getWeather } from './services/WeatherService.js';
+// import { getWeather } from './services/WeatherService.js';
+import {getWeather} from '../src/services/WeatherService.js';
+
 function App() {
 
     const [city, setCity] = useState("");
