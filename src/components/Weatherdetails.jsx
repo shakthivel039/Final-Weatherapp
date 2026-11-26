@@ -4,7 +4,7 @@ import {
     Thermometer
 } from "lucide-react";
 
-function WeatherDetails({ weather }) {
+function Weatherdetails({ weather }) {
 
     if (!weather) {
         return null;
@@ -35,4 +35,4 @@ function WeatherDetails({ weather }) {
     );
 }
 
-export default WeatherDetails;
+export default Weatherdetails;

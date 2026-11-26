@@ -1,4 +1,4 @@
-function SearchBar({ city, setCity, handleSearch }) {
+function Searchbar({ city, setCity, handleSearch }) {
 
     return (
         <div className="search-box">
@@ -21,4 +21,4 @@ function SearchBar({ city, setCity, handleSearch }) {
     );
 }
 
-export default SearchBar;
+export default Searchbar;

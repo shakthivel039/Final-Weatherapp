@@ -9,7 +9,7 @@ import {
     CloudFog
 } from "lucide-react";
 
-function WeatherCard({ weather }) {
+function Weathercard({ weather }) {
 
     if (!weather) {
         return null;
@@ -53,4 +53,4 @@ function WeatherCard({ weather }) {
     );
 }
 
-export default WeatherCard;
+export default Weathercard;

@@ -2,12 +2,14 @@
 import { useState } from 'react';
 import './App.css';
 
-import SearchBar from './components/SearchBar';
-import WeatherCard from './components/WeatherCard';
-import WeatherDetails from './components/WeatherDetails';
+// import SearchBar from './components/SearchBar.jsx';
+// import WeatherCard from './components/WeatherCard.jsx';
+// import WeatherDetails from './components/WeatherDetails.jsx';
 
-import { getWeather } from './services/weatherService';
-
+import Searchbar from './components/Searchbar.jsx';
+import Weathercard from './components/Weathercard.jsx';
+import Weatherdetails from './components/Weatherdetails.jsx';
+import { getWeather } from './services/WeatherService.js';
 function App() {
 
     const [city, setCity] = useState("");
@@ -66,7 +68,7 @@ function App() {
 
             <h1 className="title">🌦️ Weather App</h1>
 
-            <SearchBar
+            <Searchbar
                 city={city}
                 setCity={setCity}
                 handleSearch={handleSearch}
@@ -86,9 +88,9 @@ function App() {
 
             {!loading && weather && (
                 <>
-                    <WeatherCard weather={weather} />
+                    <Weathercard weather={weather} />
 
-                    <WeatherDetails weather={weather} />
+                    <Weatherdetails weather={weather} />
                 </>
             )}
 
