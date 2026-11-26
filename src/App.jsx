@@ -10,7 +10,7 @@ import Searchbar from './components/Searchbar.jsx';
 import Weathercard from './components/Weathercard.jsx';
 import Weatherdetails from './components/Weatherdetails.jsx';
 // import { getWeather } from './services/WeatherService.js';
-import {getWeather} from '../src/services/WeatherService.js';
+import {getWeather} from '../src/services/Weatherservice.js';
 
 function App() {
 
